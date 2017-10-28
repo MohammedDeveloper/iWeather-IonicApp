@@ -1,0 +1,38 @@
+.home {
+    background-color: color($colors, primary);
+    color: color($colors, light);
+    margin-top: 30px;
+}
+
+.toolbar-title {
+    text-align: center;
+}
+
+.tabs-md .tab-button-icon {
+    color: color($colors, light);
+    font-size: 24px;
+}
+
+.location, .icon, .desc {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.temp {
+    font-size: 90px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.icon img {
+    width: 100px;
+}
+
+.location {
+    font-size: 40px;
+}
+
+.desc {
+    font-size: 30px;
+}
+
