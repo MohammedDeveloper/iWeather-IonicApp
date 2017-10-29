@@ -17,7 +17,7 @@ export class WeatherProvider {
 
     /// set the API key
     this.apiKey = "c145e561531fd4ca";
-    this.apiUrl = `http://api.wunderground.com/api/${this.apiKey}/conditions/q/`;
+    this.apiUrl = `https://api.wunderground.com/api/${this.apiKey}/conditions/q/`;
   }
 
   /// get weather - returns observable and use the subscribe in calling method
